@@ -1,0 +1,20 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 0
+  Top = 0
+  ClientHeight = 480
+  ClientWidth = 320
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnKeyUp = FormKeyUp
+  DesignerMasterStyle = 3
+  object Button1: TButton
+    Align = Center
+    Size.Width = 150.000000000000000000
+    Size.Height = 55.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Text = 'Sair'
+    OnClick = Button1Click
+  end
+end
